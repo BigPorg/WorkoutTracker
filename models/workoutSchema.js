@@ -15,12 +15,12 @@ const workoutSchema = new Schema({
         sets: Number,
 
     },
-    date: {
+    day: {
         type: Date,
         default: Date.now,
     }
 });
 
-const WorkoutSchema = mongoose.model("WorkoutShema", workoutSchema);
+const Workout = mongoose.model("WorkoutShema", workoutSchema);
 
-module.exports = WorkoutSchema;
+module.exports = Workout;
