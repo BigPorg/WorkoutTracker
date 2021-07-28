@@ -2,6 +2,7 @@
 // requires
 const express = require("express");
 const mongoose = require("mongoose");
+// look into morgan!
 
 const PORT = process.env.PORT || 3000;
 

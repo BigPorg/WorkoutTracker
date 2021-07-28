@@ -15,11 +15,13 @@ router.post("/api/workouts", ({ body }, res) => {
 });
 
 // need another put? for updating
+// gonna be aggregating
 router.put("/api/workouts/:id", {
 
 })
 
 // need a get
+// gonna be aggregating
 router.get("/api/workouts/range", (req, res) => {
     Workout.find({}).sort({ date: -6 }).then(dbWorkoutSchema => {
         res.json(dbWorkoutSchema);
