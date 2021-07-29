@@ -15,3 +15,7 @@ It is made using HTML, CSS, JavaScript, Express, Mongoose and MongoDB.
 
 <br/>
 Deployed Link https://bigporg.github.io/WorkoutTracker/
+
+## Considerations
+
+Getting into noSQL content was interesting but tricky. There were issues with connectivity between my routes and the page itself but with some help I believe I managed to figure it out. Working with Mongoose was interesting, it is weird to think that Mongosh is always running. Aggregate proved a bit frustrating.
