@@ -19,6 +19,8 @@ app.use(express.static("public"));
 // should I put mongosh in here instead? no. always running mongosh.
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/WorkoutSchema", {
     useNewUrlParser: true,
+    useFindAndModify: true,
+    useCreateIndex: true,
     useFindAndModify: false,
 });
 

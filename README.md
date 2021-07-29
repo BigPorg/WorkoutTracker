@@ -8,3 +8,6 @@ It is made using HTML, CSS, JavaScript, Express, Mongoose and MongoDB.
 
 ## Screenshots and Links
 
+![screenshot]
+<br/>
+Deployed Link https://bigporg.github.io/WorkoutTracker/

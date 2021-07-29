@@ -17,7 +17,7 @@ router.post("/api/workouts", (req, res) => {
 // need put for updating
 // gonna be aggregating
 router.put("/api/workouts/:id", (req, res) => {
-    let id = ObjectID(req.params.id);
+    let id = ObjectId(req.params.id);
 
     Workout.collection.findOneAndUpdate(id, {
         $push:
