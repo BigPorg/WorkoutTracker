@@ -14,7 +14,11 @@ It is made using HTML, CSS, JavaScript, Express, Mongoose and MongoDB.
 
 
 <br/>
-Deployed Link https://bigporg.github.io/WorkoutTracker/
+Deployed Link https://bigporg.github.io/WorkoutTracker/ <br/>
+Heroku Link https://dashboard.heroku.com/apps/frozen-thicket-23037 <br/>
+
+Currently working on getting the live deployment from Atlas with Heroku.
+
 
 ## Considerations
 
